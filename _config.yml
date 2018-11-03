@@ -1,9 +1,8 @@
 title: Cognitivist
 email: cognitivist.perspective@gmail.com
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This site is intended to collect valuable information about cognition and a cognitive processes in a minimalistic,
+  but effective way. Additionally, there is room for discussions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -14,6 +13,7 @@ markdown: kramdown
 higlighter: true
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 exclude:
    - Gemfile
